@@ -1,14 +1,27 @@
 {
-  "name": "pdftoxml",
-  "version": "1.0.0",
-  "description": "",
+  "name": "pdf2html",
+  "version": "0.0.1",
+  "description": "A test on programmatically creating HTML from PDFs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"hello world\""
   },
-  "author": "",
+  "keywords": [
+    "pdf",
+    "html",
+    "converter",
+    "javascript"
+  ],
+  "author": {
+    "name": "Brad Barton",
+    "email": "bbarton@atypicaldigital.com"
+  },
   "license": "ISC",
   "dependencies": {
-    "request": "^2.88.2"
+    "mkdirp": "^0.5.1",
+    "npm": "^7.10.0",
+    "npm-run-all": "^4.1.5",
+    "pdftohtmljs": "^0.5.3",
+    "yargs": "^14.0.0"
   }
 }

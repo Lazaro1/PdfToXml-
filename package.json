@@ -4,7 +4,8 @@
   "description": "A test on programmatically creating HTML from PDFs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"hello world\""
+    "test": "echo \"hello world\"",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "pdf",
@@ -18,10 +19,9 @@
   },
   "license": "ISC",
   "dependencies": {
-    "mkdirp": "^0.5.1",
+    "nodemon": "^2.0.7",
     "npm": "^7.10.0",
     "npm-run-all": "^4.1.5",
-    "pdftohtmljs": "^0.5.3",
-    "yargs": "^14.0.0"
+    "pdf2html": "^2.5.2"
   }
 }
